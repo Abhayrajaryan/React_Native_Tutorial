@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# React Native
+.expo/
+.expo-shared/
+.metro-health-check*
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/build/
+**/android/app/build/
+**/android/.cxx/
+**/android/app/.cxx/
+
+# Gradle
+.gradle/
+**/build/
+
+# iOS
+**/ios/Pods/
+**/ios/build/
+**/ios/DerivedData/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+*.swp
